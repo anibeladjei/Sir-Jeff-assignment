@@ -1,7 +1,7 @@
 * {
     box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+    margin: 0px;
+    padding: 0px;
 }
 
 :root {
@@ -18,10 +18,49 @@ body {
 }
 
 header {
-    width: 100%;
+    width: 85%;
+    margin: 0 auto;
     height: 70px;
     background-color: turquoise;
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+nav {
+    display: flex;
+    column-gap: 100px;
+    align-items: center;
+    font-size: 18px;
+}
+a{
+    /* color: var(--second-color); */
+    text-decoration: none;
+}
+nav a{
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+    /* padding: 10px; */
+}
+.btn{
+    color: white;
+    padding: 10px 20px;
+    background-color: var(--main-color);
+    border-radius: 8px;
+    text-decoration: none;
+}
+
+header p {
+    color: aliceblue;
+    background-color: var(--main-color);
+    padding: 8px 32px;
+    border-radius: 10px;
+}
+
+/* Hero */
+.hero {
+    width: 85%;
+    margin: 0 auto;
+    display: flex;
+    
 }
