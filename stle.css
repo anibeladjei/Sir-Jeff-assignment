@@ -253,3 +253,42 @@ header p {
     z-index: -1;
     position: absolute;
 }
+.sec3{
+    width: 85%;
+    margin: 0 auto;
+    padding: 100px 0px 100px 0px;
+    display: flex;
+    align-items: center;
+}
+.sec3-ctn {
+    width: 50%;
+    /* margin-top: 100px; */
+}
+
+.sec3-ctn h2 {
+    font-size: 32px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.sec3-ctn p {
+    font-size: 22px;
+    margin-bottom: 30px;
+    font-weight: 550;
+    line-height: 1.2;
+    color: #413e3e;
+}
+.sec3-ctn a{
+    color: white;
+    padding: 10px 40px;
+    background-color: var(--main-color);
+    border-radius: 8px;
+    text-decoration: none;
+    box-shadow: 1px 1px 20px #00000032;
+}
+
+.sec3-img {
+    width: 50%;
+    background-image: url('/BxBxsDownArrow.svg');
+    background-size: cover;
+    background-position: center;
+}
