@@ -175,7 +175,81 @@ header p {
     transform: translateX(10px);
     /* margin-bottom: 20px; */
 }
+.sec2{
+    width: 85%;
+    margin: 0 auto;
+    display: flex;
+    padding: 100px 0px 100px 0px;
+}
+
+.sec2-img {
+    width: 50%;
+    transform: scaleX(-1);
+    background-image: url(imgs/erasebg-transformed.png);
+    background-size: cover;
+    background-position: center;
+}
 
 .sec2-ctn {
-    
+    position: relative;
+}
+.sec2-ctn h2 {
+    font-size: 32px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    /* text-align: center; */
+}
+
+
+.time-l-item{
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.t-num {
+    /* padding: 15px; */
+    width: 55px;
+    height: 55px;
+    color: white;
+    font-weight: 700;
+    font-size: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--main-color);
+    border-radius: 50%;
+}
+
+.time-l-text p{
+    line-height: 1.2;
+    color: #413e3e;
+}
+.btns {
+    display: flex;
+    gap: 50px;
+    margin-top: 50px;
+}
+.btns a{
+    color: white;
+    padding: 10px 40px;
+    background-color: var(--main-color);
+    border-radius: 8px;
+    text-decoration: none;
+    box-shadow: 1px 1px 20px #00000032;
+}
+.btns a:nth-child(2){
+    background-color: transparent;
+    color: var(--main-color);
+    border: 2px solid var(--main-color);
+}
+.time-line-bar {
+    width: 2px;
+    height: 300px;
+    background-color: var(--main-color);
+    margin-left: 26px;
+    bottom: 100px;
+    z-index: -1;
+    position: absolute;
 }
