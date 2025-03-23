@@ -84,7 +84,7 @@ header p {
 }
 .hero-ctn p {
     font-size: 24px;
-    margin-bottom: 50px;
+    margin-bottom: 70px;
     font-weight: 550;
     line-height: 1.2;
     color: #413e3e;
@@ -98,7 +98,7 @@ header p {
     background-position: center;
 }
 .down {
-    margin-top: 50px;
+    margin-top: 70px;
 }
 .down svg {
     color: var(--main-color);
@@ -111,7 +111,24 @@ header p {
 .sec1 {
     width: 85%;
     margin: 0 auto;
-    padding-bottom: 600px;
+    padding: 0px 0px 100px 0px;
+}
+.sec1-ctn{
+    
+}
+.sec1-ctn h2 {
+    font-size: 32px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.sec1-ctn p {
+    font-size: 22px;
+    margin-bottom: 50px;
+    font-weight: 550;
+    line-height: 1.2;
+    color: #413e3e;
+    text-align: center;
 }
 .sec1-cards {
     display: flex;
@@ -157,4 +174,8 @@ header p {
     z-index: 100;
     transform: translateX(10px);
     /* margin-bottom: 20px; */
+}
+
+.sec2-ctn {
+    
 }
