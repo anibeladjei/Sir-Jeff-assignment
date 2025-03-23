@@ -163,6 +163,7 @@ header p {
 }
 .card:nth-child(4)::before{
     background-color: #f43a01;
+    background-color: #e67639;
 }
 .card h3 {
     font-size: 24px;
@@ -302,4 +303,56 @@ header p {
 .sect-3-img img{
     /* width: 140%; */
     
+}
+
+.sec4{
+    width: 85%;
+    height: 100%;
+    margin: 0 auto;
+    padding: 100px 0px 100px 0px;
+    
+}
+
+.sec4-testimonials {
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+}
+
+.t-card {
+    width: 400px;
+    box-shadow: 1px 1px 20px #00000032;
+    border-radius: 10px;
+    padding: 20px;
+}
+.t-card> p {
+    margin: 10px 0;
+}
+.img-name {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.img-name img {
+    object-fit: cover;
+    width: 50px;
+    height: 50px;
+    border-radius: 99px;
+}
+
+
+.img-n {
+    
+}
+.img-n h3 {
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: -10px;
+    color: var(--main-color);
+}
+
+.img-n p {
+    font-size: 18px;
+    font-weight: 500;
+    color: #413e3e;
 }
