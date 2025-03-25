@@ -6,13 +6,18 @@
 
 :root {
     --main-color: #ff6400;
-    --second-color: #333;
+    ---text-color: #2e2d2d;
+    --second-color: #717070;
+    --card-section-1: #f3c00d;
+    --card-section-2: #03ee6c;
+    --card-section-3: #886fee;
+    --card-section-4: #e67639;
 }
 
 body {
     font-family: Arial, sans-serif;
     /* background-color: #f4f4f4; */
-    color: var(--second-color);
+    color: #2e2d2d;
     line-height: 1.6;
     font-size: 16px;
 }
@@ -87,7 +92,7 @@ header p {
     margin-bottom: 70px;
     font-weight: 550;
     line-height: 1.2;
-    color: #413e3e;
+    color: var(--second-color);
 }
 
 .hero-img {
@@ -127,7 +132,7 @@ header p {
     margin-bottom: 50px;
     font-weight: 550;
     line-height: 1.2;
-    color: #413e3e;
+    color: var(--second-color);
     text-align: center;
 }
 .sec1-cards {
@@ -170,6 +175,10 @@ header p {
     margin-top: 20px;
 }
 
+.card p {
+    color: var(--second-color);
+}
+
 .iconify--fe,.iconify--iconoir,.iconify--ph,.iconify--heroicons {
     color: rgb(255, 255, 255);
     z-index: 100;
@@ -200,6 +209,14 @@ header p {
     margin-bottom: 10px;
     /* text-align: center; */
 }
+.sec2-ctn >p {
+    font-size: 22px;
+    margin-bottom: 50px;
+    font-weight: 550;
+    line-height: 1.2;
+    color: var(--second-color);
+    /* text-align: center; */
+}
 
 
 .time-l-item{
@@ -209,7 +226,7 @@ header p {
     margin-top: 30px;
 }
 
-.t-num {
+.t-num  {
     /* padding: 15px; */
     width: 55px;
     height: 55px;
@@ -225,7 +242,7 @@ header p {
 
 .time-l-text p{
     line-height: 1.2;
-    color: #413e3e;
+    color: var(--second-color);
 }
 .btns {
     display: flex;
@@ -283,7 +300,7 @@ header p {
     font-weight: 550;
     letter-spacing: 1px;
     line-height: 1.3;
-    color: #413e3e;
+    color: var(--second-color);
 }
 .sect3-ctn a{
     color: white;
@@ -332,7 +349,7 @@ header p {
     font-weight: 550;
     letter-spacing: 1px;
     line-height: 1.3;
-    color: #413e3e;
+    color: var(--second-color);
     text-align: center;
 }
 
@@ -352,6 +369,7 @@ header p {
 }
 .t-card> p {
     margin: 10px 0;
+    color: var(--second-color);
 }
 .img-name {
     display: flex;
@@ -366,8 +384,8 @@ header p {
 }
 
 
-.img-n {
-    
+.img-n >p{
+    /* color: var(--second-color); */
 }
 .img-n h3 {
     font-size: 22px;
@@ -379,7 +397,7 @@ header p {
 .img-n p {
     font-size: 18px;
     font-weight: 500;
-    color: #413e3e;
+    color: var(--second-color);
 }
 
 /*  */
