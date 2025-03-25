@@ -68,18 +68,19 @@ header p {
 
 /* Hero */
 .hero {
-    width: 85%;
+    width: 80%;
     height: 100vh;
     min-height: 800px;
     margin: 0 auto;
     display: flex;
+    justify-content: space-between;
     align-items: center;
-    background-color: azure;
+    /* background-color: azure; */
 }
 .hero-ctn {
     /* width: 50%; */
     /* margin-top: 100px; */
-    background-color: beige;
+    /* background-color: beige; */
 }
 .hero-ctn h1 {
     font-size: 42px;
@@ -96,11 +97,12 @@ header p {
 }
 
 .hero-img {
-    width: 50%;
+    width: 60%;
     height: 100vh;
-    background-image: url('/imgs/erasebg-transformed.png');
-    background-size: cover;
-    background-position: center;
+    background-image: url('/imgs/hero.png');
+    background-size: 120%;
+    background-repeat: no-repeat;
+    background-position: center -150px;
 }
 .down {
     margin-top: 70px;
@@ -196,8 +198,10 @@ header p {
     width: 50%;
     transform: scaleX(-1);
     background-image: url(imgs/erasebg-transformed.png);
-    background-size: cover;
+    background-size: 135%;
+    background-repeat: no-repeat;
     background-position: center;
+    margin-right: 50px;
 }
 
 .sec2-ctn {
@@ -407,7 +411,7 @@ header p {
     height: 100px;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, 300px);
+    transform: translate(-50%, 282px);
     position: absolute;
     border-radius: 8px;
     padding: 30px 50px;
@@ -478,6 +482,9 @@ header p {
     position: absolute;
     margin: auto;
     bottom: 0px;
+    /* top: 50%; */
+    left: 50%;
+    transform: translate(-50%, 2px);
     height: 70px;
     overflow: hidden;
     width: 100%;
@@ -485,6 +492,7 @@ header p {
 }
 .footer-bottom {
     width: 1800px;
+    width: 100%;
     height: 190px;
     padding: 30px;
     border-top-left-radius: 10000px;
