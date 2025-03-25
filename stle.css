@@ -404,7 +404,7 @@ header p {
 .sec4{
     /* width: 100%; */
     position: relative;
-    min-width: 400px;
+    /* min-width: 400px; */
     height: 100%;
     margin: 0 auto;
     padding: 100px 0px 200px 0px;
@@ -615,6 +615,7 @@ header p {
 
     .hero-ctn {
         width: 100%;
+        padding: 20px;
         /* margin-top: 100px; */
         /* background-color: beige; */
     }
@@ -639,6 +640,7 @@ header p {
         display: flex;
         width: 100%;
         flex-wrap: wrap;
+        gap: 30px;
         align-items: center;
         justify-content: center;
     }
@@ -654,12 +656,43 @@ header p {
         transform: scaleX(-1);
         background-image: url(imgs/erasebg-transformed.png);
         background-size: 135%;
-        
+        height: 400px;
         margin-right: 0px;
     }
 
     .sec2-ctn {
         width: 100%;
+        padding: 20px;
+    }
+
+    .time-l-item{
+        gap: 20px;
+        margin-top: 2;
+    }
+
+    .t-num  {
+        /* padding: 15px; */
+        width: 55px;
+        height: 55px;
+        height: fit-content;
+        color: white;
+        font-weight: 700;
+        border-radius: 999px;
+        z-index: 3;
+    }
+
+    .btns {
+        display: flex;
+        gap: 30px;
+        margin-top: 50px;
+    }
+    .btns a{
+        color: white;
+        padding: 10px 20px;
+        background-color: var(--main-color);
+        border-radius: 8px;
+        text-decoration: none;
+        box-shadow: 1px 1px 20px #00000032;
     }
 
     .sec3{
@@ -684,8 +717,8 @@ header p {
         width: 100%;
         position: relative;
         height: 100%;
-        padding: 100px 10px;
-        
+        padding: 0px 10px 100px 10px;
+        min-width: none;
     }
 
     .sec5 {
@@ -693,7 +726,7 @@ header p {
         height: 100px;
         top: 50%;
         left: 50%;
-        transform: translate(-50%, 230px);
+        transform: translate(-50%, 200px);
         position: absolute;
         border-radius: 8px;
         padding: 0px 20px;
@@ -705,14 +738,14 @@ header p {
     }
     
     .sec5 p {
-        font-size: 18px;
+        font-size: 16px;
         font-weight: 600;
         color: white;
     }
     
     .sec5 a {
         color: white;
-        font-size: 16px;
+        font-size: 13px;
         padding: 8px 15px;
         background-color: var(--main-color);
         border-radius: 8px;
