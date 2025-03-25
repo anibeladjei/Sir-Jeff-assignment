@@ -14,6 +14,10 @@
     --card-section-4: #e67639;
 }
 
+img {
+    pointer-events: none;
+}
+
 body {
     font-family: Arial, sans-serif;
     /* background-color: #f4f4f4; */
