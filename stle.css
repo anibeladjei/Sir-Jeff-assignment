@@ -645,11 +645,99 @@ header p {
 
     .sec2{
         width: 100%;
+        flex-wrap: wrap;
+        padding: 10px;
+    }
+
+    .sec2-img {
+        width: 100%;
+        transform: scaleX(-1);
+        background-image: url(imgs/erasebg-transformed.png);
+        background-size: 135%;
+        
+        margin-right: 0px;
+    }
+
+    .sec2-ctn {
+        width: 100%;
+    }
+
+    .sec3{
+        width: 100%;
+        height: 100%;
         margin: 0 auto;
+        padding: 50px 0px;
         display: flex;
         flex-wrap: wrap;
-        padding: 100px 12.5% 100px 12.5%;
+    }
+
+    .sect-3-img {
+        width: 100%;
+        height: 400px;
+        background-image: url(imgs/man-working-on-laptop-3d-illustration-download-in-png-blend-fbx-gltf-file-formats--work-from-home-male-employee-business-startup-pack-professionals-illustrations-3916848.webp);
+        background-size: 130%;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+    .sec4{
+        width: 100%;
+        position: relative;
+        height: 100%;
+        padding: 100px 10px;
+        
+    }
+
+    .sec5 {
+        width: 85%;
+        height: 100px;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, 230px);
+        position: absolute;
+        border-radius: 8px;
+        padding: 0px 20px;
+        z-index: 20;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: var(--main-color);
+    }
+    
+    .sec5 p {
+        font-size: 18px;
+        font-weight: 600;
+        color: white;
+    }
+    
+    .sec5 a {
+        color: white;
+        font-size: 16px;
+        padding: 8px 15px;
+        background-color: var(--main-color);
+        border-radius: 8px;
+        text-decoration: none;
+        border: 2px solid white;
+    }
+
+
+    .footer {
+        width: 100%;
+        padding: 100px 0px 150px 0px;
         background-color: rgb(245, 234, 228);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        color: rgb(33, 32, 32);
+        font-size: 18px;
         position: relative;
     }
+
+    .footer-container {
+        width: 100%;
+        flex-direction: column;
+        text-align: center;
+    }
+    
 }
