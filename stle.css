@@ -345,7 +345,7 @@ header p {
     justify-content: space-between;
     /* background-color: #03ee6c; */
     align-items: center;
-    po
+    position: relative;
 }
 .sect3-ctn {
     /* width: 50%; */
@@ -387,6 +387,14 @@ header p {
 
 .swiper {
     padding: 150px 0px;
+}
+
+.shape-4 {
+    position: absolute;
+    bottom: 0px;
+    right: 50px;
+    width: 180px;
+    z-index: ;
 }
 
 .sec4{
