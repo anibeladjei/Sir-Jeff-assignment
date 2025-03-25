@@ -37,12 +37,20 @@ header {
     justify-content: space-between;
     align-items: center;
     z-index: 999;
+    padding: 0px 40px;
+    background-color: rgb(255, 255, 255);
 }
 nav {
     display: flex;
     column-gap: 100px;
     align-items: center;
     font-size: 18px;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    gap: 100px;
 }
 
 nav .span img {
@@ -598,8 +606,14 @@ header p {
 }
 
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1400px) {
     header{
+        /* display: none; */
+        padding: 0px 20px;
+        width: 100%;
+    }
+
+    nav ul {
         display: none;
     }
 
