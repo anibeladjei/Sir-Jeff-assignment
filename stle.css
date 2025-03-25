@@ -41,18 +41,19 @@ nav {
     font-size: 18px;
 }
 
-nav span img {
+nav .span img {
     width: 50px;
     height: 50px;
     /* object-fit: cover; */
 }  
-nav span {
+nav .span {
+    margin-right: 30px;
     display: flex;
     flex-direction: row-reverse;
     align-items: center;
     
 }    
-nav span{
+nav .span{
     font-size: 18px;
     font-weight:700;
 }
@@ -93,6 +94,7 @@ header p {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    position: relative;
     /* background-color: azure; */
 }
 .hero-ctn {
@@ -122,15 +124,44 @@ header p {
     background-repeat: no-repeat;
     background-position: center -150px;
 }
+
 .down {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    /* background: #03ee6c; */
     margin-top: 70px;
 }
 .down svg {
+    display: block;
     color: var(--main-color);
     padding: 10px;
     /* border: 1px solid var(--main-color); */
     border-radius: 50%;
     box-shadow: 1px 1px 20px #ff6600b3;
+}
+
+.down a {
+    font-size: 18px;
+    font-weight: 600;
+    color: var(---text-color);
+    display: inline-block;
+} 
+
+.shape-1 {
+    position: absolute;
+    bottom: 70px;
+    right: -110px;
+    width: 150px;
+    z-index: ;
+}
+.shape-2 {
+    position: absolute;
+    top: 70px;
+    left: -120px;
+    width: 150px;
+    z-index: ;
+    scale: -1;
 }
 
 .sec1 {
@@ -211,7 +242,7 @@ header p {
     display: flex;
     padding: 100px 12.5% 100px 12.5%;
     background-color: rgb(245, 234, 228);
-
+    position: relative;
 }
 
 .sec2-img {
@@ -297,7 +328,13 @@ header p {
     position: absolute;
 }
 
-
+.shape-3 {
+    position: absolute;
+    bottom: 170px;
+    right: 110px;
+    width: 180px;
+    z-index: ;
+}
 
 .sec3{
     width: 85%;
@@ -308,6 +345,7 @@ header p {
     justify-content: space-between;
     /* background-color: #03ee6c; */
     align-items: center;
+    po
 }
 .sect3-ctn {
     /* width: 50%; */
@@ -480,10 +518,30 @@ header p {
     align-items: center;
 }
 
-.footer-logo {
+.footer-logo .span-2 {
     display: flex;
+    font-size: 700;
+    flex-direction: row-reverse;
+    justify-content: left;
     align-items: center;
+}
+
+.footer-logo .span-2  img {
+    width: 45px;
+    height: 45px;
+    object-fit: cover;
+    margin: 0;
+}
+
+.footer-img {
+    display: flex;
     gap: 10px;
+}
+
+.footer-img img {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
 }
 
 .footer-links {
