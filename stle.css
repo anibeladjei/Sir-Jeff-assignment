@@ -160,6 +160,10 @@ header p {
     display: inline-block;
 } 
 
+.d-mob {
+    display: none;
+}
+
 .shape-1 {
     position: absolute;
     bottom: 70px;
