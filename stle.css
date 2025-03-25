@@ -605,7 +605,7 @@ header p {
 
     .hero {
         width: 100%;
-        min-height: 800px;
+        height: auto;
         margin: 0 auto;
         display: flex;
         flex-direction: column-reverse;
@@ -620,17 +620,61 @@ header p {
         /* background-color: beige; */
     }
     .hero-img {
+        margin-top:80px;
         width: 100%;
-        height: 50vh;
+        height: 280px;
         background-image: url('/imgs/hero.png');
         background-size: 120%;
         background-repeat: no-repeat;
-        background-position: center -150px;
+        background-position: center -90px;
     }
 
-    .down {
-        margin: auto; 
+    .hero-ctn p {
+        font-size: 22px;
+        margin-bottom: 70px;
+        font-weight: 550;
+        line-height: 1.2;
+        color: var(--second-color);
     }
+
+    .hero-ctn > .btn {
+        display: none;
+    }
+    .down {
+        display: none;
+    }
+
+    .d-mob {
+        display: flex;
+        /* gap: 10px; */
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        /* background: #03ee6c; */
+    }
+
+    .down-mob {
+        display: flex;
+        gap: 10px;
+        align-items: center;
+        margin-top: 40px;
+    }
+    .down-mob svg {
+        display: block;
+        color: var(--main-color);
+        padding: 10px;
+        /* border: 1px solid var(--main-color); */
+        border-radius: 50%;
+        box-shadow: 1px 1px 20px #ff6600b3;
+    }
+    
+    .down-mob a {
+        font-size: 18px;
+        font-weight: 600;
+        color: var(---text-color);
+        display: inline-block;
+    } 
 
     .shape-1,.shape-2,.shape-3,.shape-4 {
         display: none;
@@ -643,6 +687,11 @@ header p {
         gap: 30px;
         align-items: center;
         justify-content: center;
+    }
+
+    .sec1-ctn p {
+        font-size: 19px;
+       
     }
 
     .sec2{
@@ -658,6 +707,11 @@ header p {
         background-size: 135%;
         height: 400px;
         margin-right: 0px;
+    }
+
+    .sec2-ctn >p {
+        font-size: 19px;
+       
     }
 
     .sec2-ctn {
@@ -687,12 +741,18 @@ header p {
         margin-top: 50px;
     }
     .btns a{
-        color: white;
         padding: 10px 20px;
         background-color: var(--main-color);
-        border-radius: 8px;
-        text-decoration: none;
-        box-shadow: 1px 1px 20px #00000032;
+    
+    }
+
+    .time-line-bar {
+        width: 2px;
+        height: 300px;
+        background-color: var(--main-color);
+        margin-left: 18px;
+        bottom: 150px;
+        
     }
 
     .sec3{
@@ -713,12 +773,36 @@ header p {
         background-repeat: no-repeat;
     }
 
+    .sect3-ctn {
+        width: 100%;
+        padding: 20px;
+    }
+    
+    .sect3-ctn >p {
+        font-size: 19px;
+        margin-bottom: 30px;
+        font-weight: 550;
+        letter-spacing: 0px;
+        line-height: 1.2;
+        color: var(--second-color);
+    }
+
     .sec4{
         width: 100%;
         position: relative;
         height: 100%;
         padding: 0px 10px 100px 10px;
         min-width: none;
+    }
+
+    .sec4-ctn p {
+        font-size: 19px;
+        margin-bottom: 30px;
+        font-weight: 550;
+        letter-spacing: 0px;
+        line-height: 1.2;
+        color: var(--second-color);
+        text-align: center;
     }
 
     .sec5 {
@@ -771,6 +855,12 @@ header p {
         width: 100%;
         flex-direction: column;
         text-align: center;
+    }
+
+    .footer-bottom p {
+        text-align: center;
+        color: white;
+        font-size: 12px;
     }
     
 }
